@@ -1,10 +1,9 @@
 import json
-import sys
 import base64
 import logging
 import codecs
 
-from warcio.warcwriter import BufferWARCWriter, WARCWriter, BaseWARCWriter
+from warcio.warcwriter import WARCWriter, BaseWARCWriter
 from warcio.statusandheaders import StatusAndHeaders
 from warcio.timeutils import iso_date_to_timestamp
 
